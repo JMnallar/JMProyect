@@ -1,0 +1,271 @@
+*{
+        margin: 0;
+        padding: 0;
+
+}
+
+
+#header{
+
+width: 100%;
+height: 80px;
+background-color: #edf2f4;
+font-family: Arial;
+overflow: hidden;
+display: flex;
+font-weight: bold;
+}
+
+img {
+
+        height: 72;
+        margin-left: 30px;
+        justify-content: center;
+
+}
+
+ul, ol{
+
+        list-style-type: none;
+
+}
+
+
+.nav li a {
+
+        background-color: #edf2f4;
+        color: #2b2d42;
+        padding: 10px 30px;
+        display: block;
+        height: 40px;
+        width: 100%;
+        margin-top: 0px;
+        margin-left: 109px;
+        border: 1px inset #2b2d42;
+        border-bottom: none;
+        text-decoration: none;
+
+}
+
+.nav li a:hover{
+
+        background-color: red ;
+
+}
+
+.nav > li {
+
+        float: left;
+        
+        
+}
+
+
+.nav li ul {
+
+        display: none;
+        position: absolute;
+        min-width: 14s0px;
+
+}
+
+.nav li:hover > ul {
+
+        display: block;
+
+}
+
+.nav li ul li {
+
+        position: relative;
+        height: 40px;
+
+}
+
+.h1__principal {
+
+        width: 100%;
+        height: 40px;
+        background-color: #edf2f4;
+        font-family: Arial;
+        text-align: center;
+        font-size: x-large;
+        
+}
+
+.loMasImportante
+{
+        background-image: url(./img/photo-1547245324-d777c6f05e80.avif) ;
+        background-size: cover;
+        background-position: center;
+        height: 500px;
+        width: 100%;
+
+}
+
+.h1Principal {
+
+        margin-top: 50px;
+        width: 100%;
+        height: 100px;
+        
+
+
+}
+
+.contieneTresCajas {
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        background-color: #edf2f4;
+}
+
+.cajitasInternas {
+
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-top: 150px;
+        margin-bottom: 50px;
+        width: 300px;
+}
+
+
+h1 {
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        text-align: center;
+        font-size:xx-large;
+        font-weight: bold;
+        margin-top: 10px;
+}
+
+h2 {
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        text-align: center;
+        font-size: x-large;
+        font-weight: bold;
+        margin-top: 80px;
+}
+
+
+
+h3 {
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        text-align: center;
+        font-size:  large;
+        font-weight: bold;
+        text-decoration:underline;
+}
+
+.autosMenu {
+
+        justify-content: center;
+        
+
+}
+
+p {
+
+        margin-top: 10px;
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        text-align: center;
+        font-size: large;
+
+}
+
+.pieDePagina {
+
+        height: 200px;
+        width: 100%;
+        background-color: black;
+
+}
+
+.contieneTresPartes {
+
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        background-color: black;
+        margin-top: 30px;
+}
+
+
+.cajitasInternasFooter{
+
+        margin-left: 50px;
+        margin-right: 50px;
+        width: 300px;
+        margin-top: 30px;
+
+}
+
+.enlacesImportantes li a{
+
+        color:#FFFF;
+        text-decoration: none;
+        justify-content: center;
+}
+
+.cajaUnoFooter {
+
+        text-align: left;
+}
+
+.cajaDosFooter {
+
+        align-items: center;
+}
+
+.cajaTresFooter {
+
+        text-align: right;
+
+}
+
+.whatsapp {
+        position:fixed;
+        width:60px;
+        height:60px;
+        bottom:40px;
+        right:40px;
+        background-color:#25d366;
+        color:#FFFF;
+        border: white solid;
+        border-radius:50px;
+        text-align:center;
+        font-size:30px;
+        z-index:100;
+}
+
+.whatsapp-icon {
+
+        margin-top:13px;
+}
+
+
+#formul {
+
+        text-align: center;
+        padding-top: 50px;
+        background-color: transparent;
+        font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+.seccionesLanding {
+
+        font-size: xx-large;
+        text-align: left;
+
+
+}
+
+.contieneTituloProductos {
+
+        height: 30px;
+        justify-content: center;
+        background-color: #edf2f4;
+
+
+}
